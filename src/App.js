@@ -20,9 +20,14 @@ function App() {
   return (
     <div className="testCard">
       <ButtonComponent text="Nuovo bottone" />
+      <ButtonComponent text="Bottone 2" />
       <ImageComponent
         src="https://images.pexels.com/photos/29207345/pexels-photo-29207345/free-photo-of-classic-red-british-telephone-booth-in-autumn.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
         alt="free-photo-of-classic-red-british-telephone-booth-in-autumn"
+      />
+      <ImageComponent
+        src="https://images.pexels.com/photos/29467857/pexels-photo-29467857/free-photo-of-close-up-of-hand-playing-classic-piano-keys.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="free-photo-of-close-up-of-hand-playing-classic-piano-keys"
       />
     </div>
   );
