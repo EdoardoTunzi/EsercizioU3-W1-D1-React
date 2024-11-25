@@ -1,13 +1,28 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: aliceblue;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.testCard button {
+  display: block;
+  margin: 30px;
+  border: 1px solid lightblue;
+  border-radius: 10px;
+  padding: 10px 30px;
+  background-color: paleturquoise;
+  box-shadow: 0px 3px 18px 0px rgb(12 0 2 / 41%);
+  font-weight: 500;
+  font-size: 20px;
+}
+.testCard img {
+  border-radius: 5rem;
+  margin: 10px;
+  box-shadow: 0px 3px 18px 0px rgb(12 0 2 / 41%);
 }
